@@ -15,6 +15,8 @@ int main() {
 
     if (brazo.estaSujetando()) {
         std::cout << "El brazo esta sujetando un objeto.\n";
+    }else{
+    	std::cout << "El barzo esta no esta sujetando ningún objeto.\n";
     }
 
     return 0;
